@@ -16,7 +16,7 @@ RUN buildDeps=" \
 		libjpeg-dev \
 		libldap2-dev \
 		libmcrypt-dev \
-		libpng12-dev \
+		libpng-dev \
 		zlib1g-dev \
 	"; \
 	set -x \
