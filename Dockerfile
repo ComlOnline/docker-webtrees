@@ -33,7 +33,7 @@ RUN buildDeps=" \
 WORKDIR /var/www/html/
 RUN wget https://github.com/fisharebest/webtrees/releases/download/1.7.9/webtrees-1.7.9.zip
 RUN unzip ./webtrees-*.zip
-RUN mv -r ./webtrees/* ./
+RUN mv ./webtrees/* ./
 RUN chown -R www-data:www-data  /var/www/html
 RUN rm webtrees-*.zip
 RUN rm -r ./webtrees
